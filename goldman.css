@@ -1,0 +1,39 @@
+body {
+    background-image: url("background.jpg");
+}
+
+.inputText{
+	position: absolute;
+	width: 300px;
+	left: 150px;
+}
+
+#reset{
+	position: absolute;
+	left: 200px;
+}
+.button{
+	height: 40px;
+	text-align: center;
+	font-family: "Times New Roman";
+	font-size: 16px;
+	font-weight: bold;
+	width: 150px;
+}
+
+.slide{
+	width: 700px;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 8px;
+    text-align: center;
+	background-color: #E0E0E0 ;
+	border: solid 1px #111111;
+}
+
+.output{
+	font-size:16px;
+	font-weight:bold;
+	width: 712px;
+	padding: 2px;
+}

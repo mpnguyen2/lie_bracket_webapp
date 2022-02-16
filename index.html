@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="goldman.css" type="text/css" rel="stylesheet" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+
+<script type="text/javascript" src="Word.js"></script>
+<script type="text/javascript" src="Brackets.js"></script>
+<script type="text/javascript" src="Cobrackets.js"></script>
+<script type="text/javascript" src="computingBracket.js"></script>
+
+</head>
+
+<body>
+
+<script type="text/javascript" src="gui.js"></script>
+
+<h1>GOLD MAN BRACKET TESTING</h1>
+<p id="inputContent">
+<b class="input">Surface Word </b> 
+<input type="text" id="sw" class="inputText"></input><br><br><br>
+<b class="input">Curve 1</b>
+<input type="text" id="c1" class="inputText"></input><br><br><br>
+<b class="input">Curve 2</b>
+<input type="text" id="c2" class="inputText"></input><br><br>
+<p>
+<button id="compute" class="button">Calculate</button>
+<button id="reset" class="button">Clear</button>
+</p>
+</p>
+
+<br><br>
+
+<div id="siSlide" class="slide">Self-intersection number of curve 1</div>
+<div id="SI" class="output"></div>
+<br><br>
+<div id="intersectionSlide" class="slide">Minimal intersection number of curve 1 and curve 2</div>
+<div id="intersectionNumber" class="output"></div>
+<br><br>
+<div id="goldmanSlide" class="slide">Goldman Bracket of curve 1 and curve 2</div>
+<div id="goldman" class="output"></div>
+<br><br>
+<div id="cobracketSlide" class="slide">Cobracket of curve 1</div>
+<div id="cobracket" class="output"></div>
+
+</body>
+</html>
